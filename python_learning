@@ -1,0 +1,31 @@
+
+import math
+
+class Triangle:
+    def __init__(self, s1, s2, s3):
+        self.s1 = a
+        self.s2 = b
+        self.s3 = c
+
+    def area(n1, n2, n3):
+        s =  (n1 + n2 + n3) / 2
+        area = (s*(s-n1)*(s-n2)*(s-n3))**0.5
+        return area
+
+
+a = float(input("Enter the side_1 = "))
+
+
+b = float(input("Enter the side_2 = "))
+
+c = float(input("Enter the side_3 = "))
+
+
+t1 = Triangle(a, b, c)
+area_t1 = Triangle.area(a, b, c)
+
+
+
+
+
+print("the area is: ", area_t1)
